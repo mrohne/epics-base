@@ -46,8 +46,8 @@
 #	(see: http://www.timeanddate.com/time/dst/2016.html etc. )
 #
 # These values are for 2016:
-EPICS_TIMEZONE=CST/CDT::360:031302:110602
-#EPICS_TIMEZONE=CET/CEST::-60:032702:103002
+#EPICS_TIMEZONE=CST/CDT::360:031302:110602
+EPICS_TIMEZONE=CET/CEST::-60:032702:103002
 
 # EPICS_TS_NTP_INET
 #	NTP time server ip address.  Uses boot host if not set.

@@ -107,7 +107,7 @@
 # Which target architectures to cross-compile for.
 #  Definitions in configure/os/CONFIG_SITE.<host>.Common
 #  may override this setting.
-CROSS_COMPILER_TARGET_ARCHS=
+CROSS_COMPILER_TARGET_ARCHS=linux-arm
 #CROSS_COMPILER_TARGET_ARCHS=vxWorks-ppc32
 
 # If only some of your host architectures can compile the
@@ -115,7 +115,7 @@ CROSS_COMPILER_TARGET_ARCHS=
 #  architectures here.  If the combination is complicated,
 #  set CROSS_COMPILER_TARGET_ARCHS in the appropriate
 #  configure/os/CONFIG_SITE.<host>.Common files instead.
-CROSS_COMPILER_HOST_ARCHS=
+CROSS_COMPILER_HOST_ARCHS=darwin-x86 linux-x86 linux-x86_64
 
 #  The 'runtests', 'tapfiles' and 'junitfiles' make targets normally only run
 #  self-tests for the EPICS_HOST_ARCH architecture. If the host can execute
@@ -153,7 +153,7 @@ CROSS_WARN=YES
 
 # Installation directory, if you want Base to be installed into a
 #  different location then uncomment and set this.
-#INSTALL_LOCATION=<fullpathname>
+INSTALL_LOCATION=/opt/EPICS/bases/base-3.16.1
 
 # Use POSIX thread priority scheduling (if available).
 #  Must be either YES or NO
