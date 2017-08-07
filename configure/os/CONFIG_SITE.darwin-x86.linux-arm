@@ -1,0 +1,14 @@
+# CONFIG_SITE.linux-x86.linux-arm
+#
+# Site specific definitions for linux-x86 host - linux-arm target builds
+#-------------------------------------------------------
+
+# Set GNU crosscompiler target name
+GNU_TARGET = armv8-rpi3-linux-gnueabihf
+
+# Set GNU tools install path
+# This is the install path at APS:
+GNU_DIR = /opt/ct-ng/rpi3
+
+# With a Xilinx SDK, it'll be something like
+#GNU_DIR = /usr/local/zynq/Xilinx/SDK/2015.4/gnu/arm/lin
